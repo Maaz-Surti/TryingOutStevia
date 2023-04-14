@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "60403808-9B9A-4BC3-9DCC-353C6E164738"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89258D9A-D55F-49EE-B9FE-6078671222C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TryingOutStevia/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "89258D9A-D55F-49EE-B9FE-6078671222C4 - 5f64632fb014ac64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TryingOutStevia.ViewController.loadView() -&gt; ()"
+                  moduleName = "TryingOutStevia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maaz/Documents/Demos/TryingOutStevia/TryingOutStevia/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "89258D9A-D55F-49EE-B9FE-6078671222C4 - 7a51e388fd0a88df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TryingOutStevia.ViewController.loadView() -&gt; ()"
+                  moduleName = "eval103.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maaz/Documents/Demos/TryingOutStevia/TryingOutStevia/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

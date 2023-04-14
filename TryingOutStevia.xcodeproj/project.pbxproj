@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800790AC29E73FD200C3E117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800790AB29E73FD200C3E117 /* AppDelegate.swift */; };
+		800790AE29E73FD200C3E117 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800790AD29E73FD200C3E117 /* SceneDelegate.swift */; };
+		800790B029E73FD200C3E117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800790AF29E73FD200C3E117 /* ViewController.swift */; };
+		800790B529E73FD400C3E117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800790B429E73FD400C3E117 /* Assets.xcassets */; };
+		800790B829E73FD400C3E117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800790B629E73FD400C3E117 /* LaunchScreen.storyboard */; };
+		802B444129E82D5800629B98 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 802B444029E82D5800629B98 /* Stevia */; };
+		802B444329E97BF800629B98 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444229E97BF800629B98 /* MainView.swift */; };
+		802B444F29E97C1C00629B98 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444529E97C1C00629B98 /* Label.swift */; };
+		802B445029E97C1C00629B98 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444629E97C1C00629B98 /* BaseViewController.swift */; };
+		802B445129E97C1C00629B98 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444729E97C1C00629B98 /* BaseTableViewCell.swift */; };
+		802B445229E97C1C00629B98 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444829E97C1C00629B98 /* BaseCollectionViewCell.swift */; };
+		802B445329E97C1C00629B98 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444929E97C1C00629B98 /* TableViewCell.swift */; };
+		802B445429E97C1C00629B98 /* DefaultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444A29E97C1C00629B98 /* DefaultVC.swift */; };
+		802B445529E97C1C00629B98 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444B29E97C1C00629B98 /* TextField.swift */; };
+		802B445629E97C1C00629B98 /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444C29E97C1C00629B98 /* WebviewVC.swift */; };
+		802B445729E97C1C00629B98 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444D29E97C1C00629B98 /* Button.swift */; };
+		802B445829E97C1C00629B98 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B444E29E97C1C00629B98 /* BaseView.swift */; };
+		802B445A29E97EB000629B98 /* Ext_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B445929E97EB000629B98 /* Ext_ViewController.swift */; };
+		802B445C29E97ED700629B98 /* Ext_NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B445B29E97ED700629B98 /* Ext_NSObject.swift */; };
+		802B445E29E98A6500629B98 /* Ext_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B445D29E98A6500629B98 /* Ext_UIView.swift */; };
+		802B446129E98D5F00629B98 /* FontEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B446029E98D5F00629B98 /* FontEnum.swift */; };
+		80E8D65F29E9ADC10049BF84 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 80E8D65E29E9ADC10049BF84 /* Inject */; };
+		80E8D66129E9B7670049BF84 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8D66029E9B7670049BF84 /* Cell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		800790A829E73FD200C3E117 /* TryingOutStevia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryingOutStevia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800790AB29E73FD200C3E117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800790AD29E73FD200C3E117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		800790AF29E73FD200C3E117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		800790B429E73FD400C3E117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800790B729E73FD400C3E117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800790B929E73FD400C3E117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802B444229E97BF800629B98 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		802B444529E97C1C00629B98 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		802B444629E97C1C00629B98 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		802B444729E97C1C00629B98 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		802B444829E97C1C00629B98 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		802B444929E97C1C00629B98 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		802B444A29E97C1C00629B98 /* DefaultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultVC.swift; sourceTree = "<group>"; };
+		802B444B29E97C1C00629B98 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		802B444C29E97C1C00629B98 /* WebviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		802B444D29E97C1C00629B98 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		802B444E29E97C1C00629B98 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		802B445929E97EB000629B98 /* Ext_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_ViewController.swift; sourceTree = "<group>"; };
+		802B445B29E97ED700629B98 /* Ext_NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_NSObject.swift; sourceTree = "<group>"; };
+		802B445D29E98A6500629B98 /* Ext_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_UIView.swift; sourceTree = "<group>"; };
+		802B446029E98D5F00629B98 /* FontEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnum.swift; sourceTree = "<group>"; };
+		80E8D66029E9B7670049BF84 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800790A529E73FD200C3E117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B444129E82D5800629B98 /* Stevia in Frameworks */,
+				80E8D65F29E9ADC10049BF84 /* Inject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8007909F29E73FD200C3E117 = {
+			isa = PBXGroup;
+			children = (
+				800790AA29E73FD200C3E117 /* TryingOutStevia */,
+				800790A929E73FD200C3E117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800790A929E73FD200C3E117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800790A829E73FD200C3E117 /* TryingOutStevia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800790AA29E73FD200C3E117 /* TryingOutStevia */ = {
+			isa = PBXGroup;
+			children = (
+				802B445F29E98A9800629B98 /* Extensions */,
+				802B444429E97C1C00629B98 /* BaseClasses */,
+				800790AB29E73FD200C3E117 /* AppDelegate.swift */,
+				800790AD29E73FD200C3E117 /* SceneDelegate.swift */,
+				800790AF29E73FD200C3E117 /* ViewController.swift */,
+				802B444229E97BF800629B98 /* MainView.swift */,
+				80E8D66029E9B7670049BF84 /* Cell.swift */,
+				800790B429E73FD400C3E117 /* Assets.xcassets */,
+				800790B629E73FD400C3E117 /* LaunchScreen.storyboard */,
+				800790B929E73FD400C3E117 /* Info.plist */,
+			);
+			path = TryingOutStevia;
+			sourceTree = "<group>";
+		};
+		802B444429E97C1C00629B98 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				802B444529E97C1C00629B98 /* Label.swift */,
+				802B444629E97C1C00629B98 /* BaseViewController.swift */,
+				802B444729E97C1C00629B98 /* BaseTableViewCell.swift */,
+				802B444829E97C1C00629B98 /* BaseCollectionViewCell.swift */,
+				802B444929E97C1C00629B98 /* TableViewCell.swift */,
+				802B444A29E97C1C00629B98 /* DefaultVC.swift */,
+				802B444B29E97C1C00629B98 /* TextField.swift */,
+				802B444C29E97C1C00629B98 /* WebviewVC.swift */,
+				802B444D29E97C1C00629B98 /* Button.swift */,
+				802B444E29E97C1C00629B98 /* BaseView.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		802B445F29E98A9800629B98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				802B445929E97EB000629B98 /* Ext_ViewController.swift */,
+				802B445D29E98A6500629B98 /* Ext_UIView.swift */,
+				802B445B29E97ED700629B98 /* Ext_NSObject.swift */,
+				802B446029E98D5F00629B98 /* FontEnum.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800790A729E73FD200C3E117 /* TryingOutStevia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800790BC29E73FD400C3E117 /* Build configuration list for PBXNativeTarget "TryingOutStevia" */;
+			buildPhases = (
+				800790A429E73FD200C3E117 /* Sources */,
+				800790A529E73FD200C3E117 /* Frameworks */,
+				800790A629E73FD200C3E117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryingOutStevia;
+			packageProductDependencies = (
+				802B444029E82D5800629B98 /* Stevia */,
+				80E8D65E29E9ADC10049BF84 /* Inject */,
+			);
+			productName = TryingOutStevia;
+			productReference = 800790A829E73FD200C3E117 /* TryingOutStevia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800790A029E73FD200C3E117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					800790A729E73FD200C3E117 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 800790A329E73FD200C3E117 /* Build configuration list for PBXProject "TryingOutStevia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8007909F29E73FD200C3E117;
+			packageReferences = (
+				802B443F29E82D5800629B98 /* XCRemoteSwiftPackageReference "Stevia" */,
+				80E8D65D29E9ADC10049BF84 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
+			productRefGroup = 800790A929E73FD200C3E117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800790A729E73FD200C3E117 /* TryingOutStevia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800790A629E73FD200C3E117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800790B829E73FD400C3E117 /* LaunchScreen.storyboard in Resources */,
+				800790B529E73FD400C3E117 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800790A429E73FD200C3E117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B445A29E97EB000629B98 /* Ext_ViewController.swift in Sources */,
+				800790B029E73FD200C3E117 /* ViewController.swift in Sources */,
+				802B445529E97C1C00629B98 /* TextField.swift in Sources */,
+				802B446129E98D5F00629B98 /* FontEnum.swift in Sources */,
+				802B445229E97C1C00629B98 /* BaseCollectionViewCell.swift in Sources */,
+				802B445429E97C1C00629B98 /* DefaultVC.swift in Sources */,
+				802B445C29E97ED700629B98 /* Ext_NSObject.swift in Sources */,
+				802B444329E97BF800629B98 /* MainView.swift in Sources */,
+				802B445329E97C1C00629B98 /* TableViewCell.swift in Sources */,
+				800790AC29E73FD200C3E117 /* AppDelegate.swift in Sources */,
+				802B444F29E97C1C00629B98 /* Label.swift in Sources */,
+				802B445629E97C1C00629B98 /* WebviewVC.swift in Sources */,
+				802B445129E97C1C00629B98 /* BaseTableViewCell.swift in Sources */,
+				802B445E29E98A6500629B98 /* Ext_UIView.swift in Sources */,
+				800790AE29E73FD200C3E117 /* SceneDelegate.swift in Sources */,
+				802B445829E97C1C00629B98 /* BaseView.swift in Sources */,
+				802B445729E97C1C00629B98 /* Button.swift in Sources */,
+				802B445029E97C1C00629B98 /* BaseViewController.swift in Sources */,
+				80E8D66129E9B7670049BF84 /* Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		800790B629E73FD400C3E117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800790B729E73FD400C3E117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800790BA29E73FD400C3E117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800790BB29E73FD400C3E117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800790BD29E73FD400C3E117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB32RNJX8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TryingOutStevia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maaz.TryingOutStevia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800790BE29E73FD400C3E117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB32RNJX8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TryingOutStevia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maaz.TryingOutStevia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800790A329E73FD200C3E117 /* Build configuration list for PBXProject "TryingOutStevia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800790BA29E73FD400C3E117 /* Debug */,
+				800790BB29E73FD400C3E117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800790BC29E73FD400C3E117 /* Build configuration list for PBXNativeTarget "TryingOutStevia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800790BD29E73FD400C3E117 /* Debug */,
+				800790BE29E73FD400C3E117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		802B443F29E82D5800629B98 /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		80E8D65D29E9ADC10049BF84 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		802B444029E82D5800629B98 /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802B443F29E82D5800629B98 /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+		80E8D65E29E9ADC10049BF84 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80E8D65D29E9ADC10049BF84 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 800790A029E73FD200C3E117 /* Project object */;
+}
