@@ -10,17 +10,16 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")?.load()
-    
         
-//        NotificationCenter.default.addObserver(self,
-//            selector: #selector(configureView),
-//            name: Notification.Name("INJECTION_BUNDLE_NOTIFICATION"), object: nil)
-//        
+        
+        NotificationCenter.default.addObserver(forName: .init("INJECTION_BUNDLE_NOTIFICATION"), object: self, queue: .main) { _ in
+            print("RELOAD!!!")
+        }
         return true
     }
 

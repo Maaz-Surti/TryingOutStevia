@@ -41,18 +41,8 @@ class MainView: BaseView {
             passwordField
             loginButton
             table
-//            scrollView.subviews {
-//
-//
-//
-//            }
 
         }
-        
-//        scrollView.Top == safeAreaLayoutGuide.Top
-//        scrollView.Left == safeAreaLayoutGuide.Left
-//        scrollView.Right == safeAreaLayoutGuide.Right
-//        scrollView.Bottom == safeAreaLayoutGuide.Bottom
         
         label.Top == safeAreaLayoutGuide.Top + 10
         label.CenterX == self.CenterX
@@ -72,10 +62,6 @@ class MainView: BaseView {
         loginButton.CenterX == CenterX
         loginButton.Height == 40
         
-//        table.Top == loginButton.Bottom
-//        table.Left == Left
-//        table.Right == Right
-        //table.Bottom == scrollView.Bottom
     }
     
 }

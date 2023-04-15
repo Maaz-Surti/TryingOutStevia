@@ -10,6 +10,10 @@ import UIKit
 
 extension UIViewController {
     
+    @objc func injected() {
+        loadView()
+        viewDidLoad()
+    }
     
 }
 
